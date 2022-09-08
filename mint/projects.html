@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Interior Design</title>
+  <meta name="description" content="Interior Design Responsive">
+  <meta name="author" content="Andsolutions.it">
+  <meta name="description" content="">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="switcher/switcher.css">
+  <link href="css/colors/blue.css" rel="stylesheet" class="colors">
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/font/stylesheet.css">
+  <link rel="stylesheet" href="fonts/font2/stylesheet.css">
+  <link rel="stylesheet" href="fonts/font3/stylesheet.css">
+
+  <!-- Gallery -->
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+		.navbar-inverse {
+	    background-color: #4b4b4b !important;
+	    border-color: #4b4b4b !important;
+		}
+    .container.gallery-container {
+      color: #35373a;
+      min-height: 100vh;
+      padding: 30px 50px;
+    }
+    .gallery-container h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-weight: bold;
+    }
+    .gallery-container p.page-description {
+      text-align: center;
+      margin: 25px auto;
+      font-size: 18px;
+      color: #999;
+    }
+    .tz-gallery {
+      padding: 40px;
+    }
+    /* Override bootstrap column paddings */
+    .tz-gallery .row>div {
+      padding: 3px;
+    }
+    .tz-gallery .lightbox img {
+      width: 100%;
+      border-radius: 0;
+      position: relative;
+			height: 170px;
+    }
+    .tz-gallery .lightbox:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -15px;
+      margin-left: -15px;
+      opacity: 0;
+      color: #fff;
+      font-size: 26px;
+      font-family: 'Glyphicons Halflings';
+      content: '\e003';
+      pointer-events: none;
+      z-index: 9000;
+      transition: 0.4s;
+    }
+    .tz-gallery .lightbox:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      background-color: rgba(128, 128, 128, 0.7);
+      content: '';
+      transition: 0.4s;
+    }
+    .tz-gallery .lightbox:hover:after,
+    .tz-gallery .lightbox:hover:before {
+      opacity: 1;
+    }
+    .baguetteBox-button {
+      background-color: transparent !important;
+    }
+    .btn {
+      box-shadow: 0 12px 19px rgba(255, 255, 255, 0.1) inset, 0 1px 7px rgba(0, 0, 0, 0.2) !important;
+      color: #fff !important;
+      border: 1px solid transparent !important;
+      border-radius: 0 !important;
+      cursor: pointer !important;
+      display: inline-block !important;
+      font-size: 14px !important;
+      font-weight: normal !important;
+      line-height: 1.42857 !important;
+      margin-bottom: 0 !important;
+      padding: 11px 20px !important;
+      text-align: center !important;
+      vertical-align: middle !important;
+      white-space: nowrap !important;
+      -webkit-transition: all .5s ease !important;
+      -moz-transition: all .5s ease !important;
+      -o-transition: all .5s ease !important;
+      -ms-transition: all .5s ease !important;
+      transition: all .5s ease !important;
+    }
+    .btn:hover {
+      color: #799496 !important;
+    }
+    @media (max-width: 767px) {
+      .tz-gallery .lightbox img {
+  			height: 200px;
+      }
+    }
+  </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#mynav" data-offset="85">
+
+  <header>
+
+    <!-- Bootstrap Menu -->
+    <div id="navigation">
+      <div class="navbar-wrapper">
+        <nav class="navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="row">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="index.html"><img src="img/mint-logo.png" /></a>
+              </div>
+              <div id="mynav" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav main-nav-list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">We Are</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="projects.html" style="color:#00cfef;">Projects</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#contacts">Contact Us</a></li>
+                </ul>
+                <button class="btn" class="top-btn">Download Broucher</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- End Bootstrap Menu -->
+
+    <!-- Slider -->
+    <section id="home">
+      <div class="slide-wrap" style="background-image:url('img/work/26.jpeg');height:400px;">
+        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Slider -->
+  </header>
+  <div class="element-title">
+    <div class="container">
+      <div class="section-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
+        <h1><span>Our Projects</span></h1>
+        <center>
+          <div class="hl"></div>
+        </center>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="container gallery-container">
+    <div class="tz-gallery">
+
+      <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="500ms">
+
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/1.jpeg">
+            <img src="img/mail/1.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/2.jpeg">
+            <img src="img/mail/2.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/3.jpeg">
+            <img src="img/mail/3.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/4.jpeg">
+            <img src="img/mail/4.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/5.jpeg">
+            <img src="img/mail/5.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/6.jpeg">
+            <img src="img/mail/6.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/7.jpeg">
+            <img src="img/mail/7.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/8.jpeg">
+            <img src="img/mail/8.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/9.jpeg">
+            <img src="img/mail/9.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/10.jpeg">
+            <img src="img/mail/10.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/11.jpeg">
+            <img src="img/mail/11.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/12.jpeg">
+            <img src="img/mail/12.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/13.jpeg">
+            <img src="img/mail/13.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/14.jpeg">
+            <img src="img/mail/14.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/15.jpeg">
+            <img src="img/mail/15.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/16.jpeg">
+            <img src="img/mail/16.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/17.jpeg">
+            <img src="img/mail/17.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/18.jpeg">
+            <img src="img/mail/18.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/19.jpeg">
+            <img src="img/mail/19.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/21.jpeg">
+            <img src="img/mail/21.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/22.jpeg">
+            <img src="img/mail/23.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/23.jpeg">
+            <img src="img/mail/23.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/24.jpeg">
+            <img src="img/mail/24.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/26.jpeg">
+            <img src="img/mail/26.jpeg" alt="Rails">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/27.jpeg">
+            <img src="img/mail/27.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/28.jpeg">
+            <img src="img/mail/28.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/29.jpeg">
+            <img src="img/mail/29.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/30.jpeg">
+            <img src="img/mail/30.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/31.jpeg">
+            <img src="img/mail/31.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/32.jpeg">
+            <img src="img/mail/32.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/33.jpeg">
+            <img src="img/mail/33.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/34.jpeg">
+            <img src="img/mail/34.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/35.jpeg">
+            <img src="img/mail/35.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/36.jpeg">
+            <img src="img/mail/36.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/37.jpeg">
+            <img src="img/mail/37.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/38.jpeg">
+            <img src="img/mail/38.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/39.jpeg">
+            <img src="img/mail/39.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/40.jpeg">
+            <img src="img/mail/40.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/41.jpeg">
+            <img src="img/mail/41.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/42.jpeg">
+            <img src="img/mail/42.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/43.jpeg">
+            <img src="img/mail/43.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/44.jpeg">
+            <img src="img/mail/44.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/45.jpeg">
+            <img src="img/mail/45.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/46.jpeg">
+            <img src="img/mail/46.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/47.jpeg">
+            <img src="img/mail/47.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/48.jpeg">
+            <img src="img/mail/48.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/49.jpeg">
+            <img src="img/mail/49.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/50.jpeg">
+            <img src="img/mail/50.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/51.jpeg">
+            <img src="img/mail/51.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/52.jpeg">
+            <img src="img/mail/52.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/53.jpeg">
+            <img src="img/mail/53.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/54.jpeg">
+            <img src="img/mail/54.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/55.jpeg">
+            <img src="img/mail/55.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/56.jpeg">
+            <img src="img/mail/56.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/57.jpeg">
+            <img src="img/mail/57.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/58.jpeg">
+            <img src="img/mail/58.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/59.jpeg">
+            <img src="img/mail/59.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/60.jpeg">
+            <img src="img/mail/60.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/61.jpeg">
+            <img src="img/mail/61.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/62.jpeg">
+            <img src="img/mail/62.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/63.jpeg">
+            <img src="img/mail/63.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/64.jpeg">
+            <img src="img/mail/64.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/65.jpeg">
+            <img src="img/mail/65.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/66.jpeg">
+            <img src="img/mail/66.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/67.jpeg">
+            <img src="img/mail/67.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/68.jpeg">
+            <img src="img/mail/68.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/69.jpeg">
+            <img src="img/mail/69.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/70.jpeg">
+            <img src="img/mail/70.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/71.jpeg">
+            <img src="img/mail/71.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/72.jpeg">
+            <img src="img/mail/72.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/73.jpeg">
+            <img src="img/mail/73.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/74.jpeg">
+            <img src="img/mail/74.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/mail/75.jpeg">
+            <img src="img/mail/75.jpeg" alt="">
+          </a>
+        </div>
+
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/1.jpeg">
+            <img src="img/work/1.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/2.jpeg">
+            <img src="img/work/2.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/3.jpeg">
+            <img src="img/work/3.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/4.jpeg">
+            <img src="img/work/4.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/5.jpeg">
+            <img src="img/work/5.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/6.jpeg">
+            <img src="img/work/6.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/7.jpeg">
+            <img src="img/work/7.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/8.jpeg">
+            <img src="img/work/8.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/9.jpeg">
+            <img src="img/work/9.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/10.jpeg">
+            <img src="img/work/10.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/11.jpeg">
+            <img src="img/work/11.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/12.jpeg">
+            <img src="img/work/12.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/13.jpeg">
+            <img src="img/work/13.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/14.jpeg">
+            <img src="img/work/14.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/15.jpeg">
+            <img src="img/work/15.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/16.jpeg">
+            <img src="img/work/16.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/17.jpeg">
+            <img src="img/work/17.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/18.jpeg">
+            <img src="img/work/18.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/19.jpeg">
+            <img src="img/work/19.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/20.jpeg">
+            <img src="img/work/20.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/21.jpeg">
+            <img src="img/work/21.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/22.jpeg">
+            <img src="img/work/23.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/23.jpeg">
+            <img src="img/work/23.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/24.jpeg">
+            <img src="img/work/24.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/25.jpeg">
+            <img src="img/work/25.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/26.jpeg">
+            <img src="img/work/26.jpeg" alt="Rails">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/27.jpeg">
+            <img src="img/work/27.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/28.jpeg">
+            <img src="img/work/28.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/29.jpeg">
+            <img src="img/work/29.jpeg" alt="">
+          </a>
+        </div>
+				<div class="col-sm-6 col-md-3">
+          <a class="lightbox" href="img/work/30.jpeg">
+            <img src="img/work/30.jpeg" alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
+
+
+
+
+
+
+  <!--
+<div class="projects-page">
+  <div class="row">
+    <div class="col-md-8">
+      <blockquote>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+      </blockquote>
+    </div>
+    <div class="col-md-4">
+      <h2>Recent Posts</h2>
+
+			<div class="widget category">
+				<ul class="category-list slide">
+						<li><a href="blog1.html" style="color:black;">Tranquil Hues Blog</a></li>
+						<li><a href="blog2.html" style="color:black;">High-Contrast Decor Blog</a></li>
+						<li><a href="blog3.html" style="color:black;">Environment Interior Design Blog</a></li>
+						<li><a href="blog4.html" style="color:black;">Non-White Kitchens Blog</a></li>
+				</ul>
+			</div>
+
+    </div>
+  </div>
+</div>
+-->
+
+
+
+
+  <!--
+<div class="swiper-container wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
+	<div class="swiper-wrapper">
+
+			<div class="swiper-slide" class="column">
+				<img src="img/works/1.png" onclick="openmodal1();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/2.png" onclick="openmodal1();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/3.png" onclick="openmodal1();currentSlide(3)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/4.png" onclick="openmodal1();currentSlide(4)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/5.png" onclick="openmodal1();currentSlide(5)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/6.png" onclick="openmodal1();currentSlide(6)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/7.png" onclick="openmodal1();currentSlide(7)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/8.png" onclick="openmodal1();currentSlide(8)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/9.png" onclick="openmodal1();currentSlide(9)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/10.png" onclick="openmodal1();currentSlide(10)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/11.png" onclick="openmodal1();currentSlide(11)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/12.png" onclick="openmodal1();currentSlide(12)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/13.png" onclick="openmodal1();currentSlide(13)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/14.png" onclick="openmodal1();currentSlide(14)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/15.png" onclick="openmodal1();currentSlide(15)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/16.png" onclick="openmodal1();currentSlide(16)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/17.png" onclick="openmodal1();currentSlide(17)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/18.png" onclick="openmodal1();currentSlide(18)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/19.png" onclick="openmodal1();currentSlide(19)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/20.png" onclick="openmodal1();currentSlide(10)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/21.png" onclick="openmodal1();currentSlide(21)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/22.png" onclick="openmodal1();currentSlide(22)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/23.png" onclick="openmodal1();currentSlide(23)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/24.png" onclick="openmodal1();currentSlide(24)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/25.png" onclick="openmodal1();currentSlide(25)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/26.png" onclick="openmodal1();currentSlide(26)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/27.png" onclick="openmodal1();currentSlide(27)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/28.png" onclick="openmodal1();currentSlide(28)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/29.png" onclick="openmodal1();currentSlide(29)" class="hover-shadow cursor">
+			</div>
+			<div class="swiper-slide" class="column">
+				<img src="img/works/30.png" onclick="openmodal1();currentSlide(30)" class="hover-shadow cursor">
+			</div>
+	</div>
+
+	<div class="swiper-pagination"></div>
+</div>
+
+
+<div id="mymodal11" class="modal1">
+	<span class="close cursor" onclick="closemodal1()">&times;</span>
+
+
+		<div class="mySlides">
+			<img src="img/work/1.jpeg" style="width:100%">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/2.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/3.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/4.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/5.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/6.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/7.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/8.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/9.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/10.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/11.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/12.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/13.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/14.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/15.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/16.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/17.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/18.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/19.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/20.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/21.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/22.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/23.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/24.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/25.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/26.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/27.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/28.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/29.jpeg">
+		</div>
+		<div class="mySlides">
+			<img src="img/work/30.jpeg">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+
+</div>
+-->
+
+<br>
+
+  <!-- Footer -->
+  <div class="bottom-footer">
+    <div class="container">
+      <div class="bottom-footer-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
+        <ul class="bottom-social-icons">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="bottom-footer-left wow fadeInUp" data-wow-duration="1s" data-wow-delay="450ms">
+        <p><span>&#169; Copyright <span class="font">2020</span> Designed by</span> <a href="http://www.kitescreations.com">Kites Creations</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+
+  <!-- Scroll to Top  -->
+  <a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
+  <!-- End Scroll To Top  -->
+
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/retina.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.countTo.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.knob.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+
+  <script>
+    function openmodal1() {
+      document.getElementById("mymodal11").style.display = "block";
+    }
+
+    function closemodal1() {
+      document.getElementById("mymodal11").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+
+
+</body>
+
+</html>
