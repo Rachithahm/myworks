@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bhima | All</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- site icons -->
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Theme style -->
+  <link rel="stylesheet" href="css/theme.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/bhima.css" />
+  <!-- Check/Radio Inputs -->
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="css/icheck-bootstrap.min.css">
+  <!-- Quick view -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/quick.css" />
+  <script src="js/quick.js"></script>
+
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+
+  <div class="wrapper">
+    <!-- Navbar -->
+    <nav class="navbar-light z-depth-1">
+      <div class="nav-wrapper">
+        <a href="#" data-target="slide-out" class="brand-logo sidenav-trigger"><i class="material-icons">apps</i></a>
+        <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="#"><i class="material-icons">search</i></a>
+          </li>
+          <li>
+            <a href="#" class="dropdown-trigger" data-target="dropdown1"><i class="material-icons">notifications_none</i></a>
+            <ul id="dropdown1" class="dropdown-content">
+              <li>
+                <a href="#!">Notifications<span class="new badge">3</span></a>
+              </li>
+              <li class="divider" tabindex="-1"></li>
+              <li>
+                <a href="#!"><i class="material-icons">view_module</i>Hi</a>
+              </li>
+              <li>
+                <a href="#!"><i class="material-icons">cloud</i>This id dummy notification</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"><i class="material-icons">mail_outline</i></a>
+          </li>
+          <li>
+            <span data-target="slide-out-profile" class="sidenav-trigger" style="cursor:pointer;"><i class="material-icons">account_circle</i></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Side Prodile -->
+    <ul id="slide-out-profile" class="sidenav profile-sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="images/bg.jpg" />
+          </div>
+          <a href="#user"><img class="circle" src="images/man-icon.png" /></a>
+          <a href="#name"><span class="white-text name">Name</span></a>
+          <a href="#email"><span class="white-text email">info@gmail.com</span></a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Side Navbar -->
+    <ul id="slide-out" class="sidenav collapsible">
+      <li>
+        <a href="#" class="ptb-10">
+          <img src="images/logo.png" class="logo" alt="" />
+        </a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+
+
+      <li>
+        <a href="#" class="grey-text text-darken-1">Applications</a>
+      </li>
+      <div class="app">
+        <div class="row">
+          <div class="col s6 m6">
+            <a href="member.html" class="btn-small pink-text"><img src="images/User-Member.png" width="20">
+              <spam>Member</spam>
+            </a>
+            <!-- three dot menu -->
+            <div class="dots">
+              <!-- three dots -->
+              <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
+                <li><span>&#8942;</span></li>
+              </ul>
+              <!-- menu -->
+              <div id="dotsDropdown" class="dots-content">
+                <li>
+                  <a href="#!"><i class="material-icons">add</i>Add Member</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">edit</i>Modify Member</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">publish</i>Stack Upload</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 m6">
+            <a href="#" class="btn-small pink-text"><img src="images/Client.png" width="20">
+              <spam>Clients</spam>
+            </a>
+            <!-- three dot menu -->
+            <div class="dots">
+              <!-- three dots -->
+              <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown3()">
+                <li><span>&#8942;</span></li>
+              </ul>
+              <!-- menu -->
+              <div id="dotsDropdown3" class="dots-content">
+                <li>
+                  <a href="#!"><i class="material-icons">add</i>Add Clients</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">search</i>Find Clients</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">publish</i>Stack Clients</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 m6">
+            <a href="#" class="btn-small pink-text"><img src="images/Hospital.png" width="20">
+              <spam>Hospital</spam>
+            </a>
+            <!-- three dot menu -->
+            <div class="dots">
+              <!-- three dots -->
+              <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown5()">
+                <li><span>&#8942;</span></li>
+              </ul>
+              <!-- menu -->
+              <div id="dotsDropdown5" class="dots-content">
+                <li>
+                  <a href="#!"><i class="material-icons">add</i>Add</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">search</i>Find</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">publish</i>Stack</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 m6">
+            <a href="#" class="btn-small pink-text"><img src="images/Vendor.png" width="20">
+              <spam>Vendors</spam>
+            </a>
+            <!-- three dot menu -->
+            <div class="dots">
+              <!-- three dots -->
+              <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown5()">
+                <li><span>&#8942;</span></li>
+              </ul>
+              <!-- menu -->
+              <div id="dotsDropdown5" class="dots-content">
+                <li>
+                  <a href="#!"><i class="material-icons">add</i>Add Vendors</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">search</i>Find Vendors</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">publish</i>Stack Vendors</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 m6">
+            <a href="#" class="btn-small pink-text"><img src="images/Doctor.png" width="20">
+              <spam>Doctor</spam>
+            </a>
+            <!-- three dot menu -->
+            <div class="dots">
+              <!-- three dots -->
+              <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown5()">
+                <li><span>&#8942;</span></li>
+              </ul>
+              <!-- menu -->
+              <div id="dotsDropdown5" class="dots-content">
+                <li>
+                  <a href="#!"><i class="material-icons">add</i>Add</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">search</i>Find</a>
+                </li>
+                <li>
+                  <a href="#!"><i class="material-icons">publish</i>Stack</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 m6">
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <li>
+        <a href="#" class="collapsible-header"><i class="material-icons">settings_input_svideo</i>Dashboard<i class="material-icons float-right">
+            keyboard_arrow_right
+          </i></a>
+        <div class="collapsible-body">
+          <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="collapsible-header"><i class="material-icons">dashboard</i>Samples<i class="material-icons float-right">
+            keyboard_arrow_right
+          </i></a>
+        <div class="collapsible-body">
+          <div class="row">
+            <div class="col s6">
+              <a href="alerts.html">Alerts</a>
+            </div>
+            <div class="col s6">
+              <a href="all.html">All</a>
+            </div>
+            <div class="col s6">
+              <a href="calendar.html">Calendar</a>
+            </div>
+            <div class="col s6">
+              <a href="modals.html">Modals</a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <a href="#" class="grey-text text-darken-1">Applications</a>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">mail_outline</i>Mail<span class="new badge pink lighten-1">5</span></a>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">chat_bubble_outline</i>Chat</a>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">check</i>Todo</a>
+      </li>
+    </ul>
+
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <ol class="breadcrumb">
+            <a href="index.html">
+              <li class="fa fa-home"></li>
+            </a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <li class="breadcrumb-item active">Buttons</li>
+          </ol>
+          <!-- Content Header (Page header) -->
+          <div class="content-header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h1 class="m-0 text-dark" style="font-size:2rem;">Buttons</h1>
+                </div><!-- /.col -->
+              </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+          </div>
+          <!-- /.content-header -->
+
+
+          <div class="row">
+            <!-- left column -->
+            <div class="col-md-8">
+              <!-- general form elements -->
+              <div class="card card-primary">
+                <div class="card-header">
+                  <h3 class="card-title">Inputs/File Upload</h3>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form role="form">
+                  <div class="card-body">
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter Full Name" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                      <label>File input</label>
+                      <div class="input-group">
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="file">
+                          <label class="custom-file-label">Choose file</label>
+                        </div>
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="">Upload</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check</label>
+                    </div>
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+              </div>
+              <!-- /.card -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <!-- iCheck -->
+          <div class="card card-success">
+            <div class="card-header">
+              <h3 class="card-title">Checkbox &amp; Radio Inputs</h3>
+            </div>
+            <div class="card-body">
+              <!-- Minimal style -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <!-- checkbox -->
+                  <div class="form-group clearfix">
+                    <div class="icheck-primary d-inline">
+                      <input type="checkbox" id="checkboxPrimary1" checked>
+                      <label for="checkboxPrimary1">
+                      </label>
+                    </div>
+                    <div class="icheck-primary d-inline">
+                      <input type="checkbox" id="checkboxPrimary2">
+                      <label for="checkboxPrimary2">
+                      </label>
+                    </div>
+                    <div class="icheck-primary d-inline">
+                      <input type="checkbox" id="checkboxPrimary3" disabled>
+                      <label for="checkboxPrimary3">
+                        Primary checkbox
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <!-- radio -->
+                  <div class="form-group clearfix">
+                    <div class="icheck-primary d-inline">
+                      <input type="radio" id="radioPrimary1" name="r1" checked>
+                      <label for="radioPrimary1">
+                      </label>
+                    </div>
+                    <div class="icheck-primary d-inline">
+                      <input type="radio" id="radioPrimary2" name="r1">
+                      <label for="radioPrimary2">
+                      </label>
+                    </div>
+                    <div class="icheck-primary d-inline">
+                      <input type="radio" id="radioPrimary3" name="r1" disabled>
+                      <label for="radioPrimary3">
+                        Primary radio
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Minimal red style -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <!-- checkbox -->
+                  <div class="form-group clearfix">
+                    <div class="icheck-danger d-inline">
+                      <input type="checkbox" checked id="checkboxDanger1">
+                      <label for="checkboxDanger1">
+                      </label>
+                    </div>
+                    <div class="icheck-danger d-inline">
+                      <input type="checkbox" id="checkboxDanger2">
+                      <label for="checkboxDanger2">
+                      </label>
+                    </div>
+                    <div class="icheck-danger d-inline">
+                      <input type="checkbox" disabled id="checkboxDanger3">
+                      <label for="checkboxDanger3">
+                        Danger checkbox
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <!-- radio -->
+                  <div class="form-group clearfix">
+                    <div class="icheck-danger d-inline">
+                      <input type="radio" name="r2" checked id="radioDanger1">
+                      <label for="radioDanger1">
+                      </label>
+                    </div>
+                    <div class="icheck-danger d-inline">
+                      <input type="radio" name="r2" id="radioDanger2">
+                      <label for="radioDanger2">
+                      </label>
+                    </div>
+                    <div class="icheck-danger d-inline">
+                      <input type="radio" name="r2" disabled id="radioDanger3">
+                      <label for="radioDanger3">
+                        Danger radio
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Minimal red style -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <!-- checkbox -->
+                  <div class="form-group clearfix">
+                    <div class="icheck-success d-inline">
+                      <input type="checkbox" checked id="checkboxSuccess1">
+                      <label for="checkboxSuccess1">
+                      </label>
+                    </div>
+                    <div class="icheck-success d-inline">
+                      <input type="checkbox" id="checkboxSuccess2">
+                      <label for="checkboxSuccess2">
+                      </label>
+                    </div>
+                    <div class="icheck-success d-inline">
+                      <input type="checkbox" disabled id="checkboxSuccess3">
+                      <label for="checkboxSuccess3">
+                        Success checkbox
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <!-- radio -->
+                  <div class="form-group clearfix">
+                    <div class="icheck-success d-inline">
+                      <input type="radio" name="r3" checked id="radioSuccess1">
+                      <label for="radioSuccess1">
+                      </label>
+                    </div>
+                    <div class="icheck-success d-inline">
+                      <input type="radio" name="r3" id="radioSuccess2">
+                      <label for="radioSuccess2">
+                      </label>
+                    </div>
+                    <div class="icheck-success d-inline">
+                      <input type="radio" name="r3" disabled id="radioSuccess3">
+                      <label for="radioSuccess3">
+                        Success radio
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.card -->
+        </div>
+      </section>
+
+
+
+
+
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card card-primary card-outline">
+                <div class="card-header">
+                  <h3 class="card-title">
+                    <i class="fas fa-edit"></i>
+                    Buttons
+                  </h3>
+                </div>
+                <div class="card-body pad table-responsive">
+                  <table class="table table-bordered text-center">
+                    <tr>
+                      <th>Normal</th>
+                      <th>Large</th>
+                      <th>Small</th>
+                      <th>Disabled</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button type="button" class="btn btn-block btn-default">Default</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-default btn-lg">Default</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-default btn-sm">Default</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-default disabled">Default</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button type="button" class="btn btn-block btn-primary">Primary</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-primary btn-lg">Primary</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-primary btn-sm">Primary</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-primary disabled">Primary</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button type="button" class="btn btn-block btn-secondary">Secondary</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-secondary btn-lg">Secondary</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-secondary btn-sm">Secondary</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-secondary disabled">Secondary</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button type="button" class="btn btn-block btn-success">Success</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-success btn-lg">Success</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-success btn-sm">Success</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-success disabled">Success</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button type="button" class="btn btn-block btn-info">Info</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-info btn-lg">Info</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-info btn-sm">Info</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-info disabled">Info</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button type="button" class="btn btn-block btn-danger">Danger</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-danger btn-lg">Danger</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-danger btn-sm">Danger</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-danger disabled">Danger</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button type="button" class="btn btn-block btn-warning">Warning</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-warning btn-lg">Warning</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-warning btn-sm">Warning</button>
+                      </td>
+                      <td>
+                        <button type="button" class="btn btn-block btn-warning disabled">Warning</button>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!-- /.card -->
+              </div>
+            </div>
+            <!-- /.col -->
+          </div>
+          <!-- ./row -->
+
+        </div><!-- /.container-fluid -->
+      </section>
+      <!-- /.content -->
+
+    </div>
+
+
+    <footer class="main-footer">
+      <div class="float-right d-none d-sm-inline-block">
+        Copyright &copy; 2020 All rights reserved
+      </div>
+    </footer>
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+  </div>
+  <!-- ./wrapper -->
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="js/theme.js"></script>
+  <!-- Materialize -->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
