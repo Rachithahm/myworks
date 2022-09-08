@@ -1,0 +1,47 @@
+.control-sidebar {
+  width: 120px !important;
+  background: rgba(40, 57, 101, .9) !important;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+  background-color: #30a5ff !important;
+}
+.page-item.active .page-link {
+  background-color: #30a5ff !important;
+  border-color: #30a5ff !important;
+}
+.content-wrapper {
+  background: #fff !important;
+}
+.fa-home, .fa-user, .fa-bell, .fa-th-large, .fa-bars, .fa-search {
+  color: rgba(40, 57, 101, .9) !important;
+}
+.navbar-white {
+  background-color: #f1f4f7 !important;
+}
+.main-footer {
+  background-color: #f1f4f7 !important;
+}
+.navbar-light .btn-navbar, .navbar-light .form-control-navbar {
+  background: #e9ecf2 !important;
+}
+.breadcrumb {
+  width: 100%;
+  background: #e9ecf2 !important;
+}
+.main-footer {
+  padding: 0 20px 20px 20px !important;
+  font-size: 14px;
+  color: #ccc;
+}
+#icon-color {
+  color: rgba(194, 199, 208, .5) !important;
+}
+.nav-link.active #icon-color {
+  color: #343a40 !important;
+}
+.bg-info, .bg-warning {
+  background: #30a5ff !important;
+}
+.bg-success, .bg-danger {
+  background: rgba(40, 57, 101, .9) !important;
+}

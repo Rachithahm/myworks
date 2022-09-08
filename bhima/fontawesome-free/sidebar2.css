@@ -1,0 +1,81 @@
+/* Fixed sidenav, full height */
+.fixed-sidenav {
+  position: relative;
+  font-size: 16px;
+  min-height: 100vh;
+  height: 100%;
+  width: 250px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ccc;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.fixed-sidenav a, .dropdown-btn {
+  font-size: 16px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.fixed-sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  margin-left: 250px;
+  padding: 70px 10px;
+  width: 90%;
+}
+
+.active {
+  background-color: #30a5ff;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #f1f2f3;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  .fixed-sidenav {padding-top: 15px;}
+}
+
+ul.breadcrumb {
+  padding: 10px;
+  list-style: none;
+  background-color: #fff;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #01447E;
+  text-decoration: none;
+}
+.breadcrumb:last-child {
+    color: #000;
+}
