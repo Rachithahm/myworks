@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSTACK</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="gtomdesign" />
+
+  <!-- Vendor Css-->
+  <link rel="stylesheet" href="assets/css/vendor.css" />
+  <link href="assets/css/splitting.css" rel="stylesheet">
+  <link href="assets/css/splitting-cells.css" rel="stylesheet">
+
+  <!-- InkyTemplate style Css -->
+  <link href="assets/css/inky.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Custom style Css -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="assets/webfonts/font/stylesheet.css" rel="stylesheet">
+  <link href="assets/webfonts/font1/stylesheet.css" rel="stylesheet">
+  <link href="assets/webfonts/font2/stylesheet.css" rel="stylesheet">
+
+  <!-- Cookie Consent
+	<link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css" />
+	<script src="https://wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
+	<script>
+		window.addEventListener("load", function() {
+			window.wpcc.init({
+				"border": "thin",
+				"corners": "normal",
+				"colors": {
+					"popup": {
+						"background": "#ffe4e1",
+						"text": "#000000",
+						"border": "#b81727"
+					},
+					"button": {
+						"background": "#b81727",
+						"text": "#ffffff"
+					}
+				},
+				"position": "bottom",
+				"fontsize": "default",
+				"margin": "large",
+				"content": {
+					"message": "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.",
+					"button": "OK I GOT IT"
+				}
+			})
+		});
+	</script> -->
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+
+  <!-- START: Preloader -->
+
+  <div class="preloader">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <!-- END: Preloader -->
+
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+
+  <!-- START: NAVBAR -->
+
+  <div class="navbar-right d-flex align-items-center ml-auto">
+
+  </div>
+
+  <div class="menu-icon" onclick="logo();">
+    <span class="menu-icon__line menu-icon__line-left"></span>
+    <span class="menu-icon__line"></span>
+    <span class="menu-icon__line menu-icon__line-right"></span>
+  </div>
+
+  <div class="nav">
+    <a id="toggle-logo" style="display:none;" class="navbar-brand" href="index.html"><img src="assets/images/Logo.jpeg" width="200"></a>
+    <div class="nav-content">
+      <div id="jquery-accordion-menu" class="jquery-accordion-menu">
+        <ul class="nav-list">
+          <li class="nav-link">
+            <a href="about.html">About</a>
+          </li>
+          <!--<li class="nav-link"><a href="#"></i>Portfolio </a>
+            <ul class="submenu">
+              <li><a href="#">Clients </a></li>
+            </ul>
+          </li>-->
+          <li class="nav-link"><a href="products.html"></i>Products </a>
+            <!--<ul class="submenu">
+              <li><a href="#">Products List </a>
+                <ul class="submenu">
+                  <li><a href="#">Health Care </a></li>
+                  <li><a href="#">Rstack </a></li>
+                </ul>
+              </li>
+            </ul>-->
+          </li>
+          <li class="nav-link"><a href="services.html"></i>Services </a></li>
+          <li class="nav-link"><a href="consulting.html"></i>Consulting </a></li>
+          <li class="nav-link"><a href="solutions.html"></i>Solutions </a></li>
+          <li class="nav-link"><a href="carriers.html"></i>Carriers </a></li>
+          <li class="nav-link"><a href="partners.html"></i>Partners </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <header class="nav-wrapper">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/Logo.png" width="200"></a>
+<!--        <div class="nav-middle">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div>
+-->
+      </div>
+    </nav>
+  </header>
+
+  <!-- END: NAVBAR -->
+
+  <!--
+  <script type="text/javascript">
+      function logo() {
+      var x = document.getElementById("toggle-logo");
+      if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  </script>
+-->
+
+
+  <!-- START: BANNER -->
+  <section class="section section-intro" id="home">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12">
+          <div class="banner-text">
+            <div class="row">
+              <div class="col-6">
+                <h1 id="text-slide">
+                  <span class="word">consulting</span>
+                  <span class="word">products</span>
+                  <span class="word">review</span>
+                </h1>
+              </div>
+              <div class="col-6">
+                <h1 id="reinvented">reinvented</h1>
+              </div>
+            </div>
+            <center><a href="#contact" class="btn btn-circle">Let's Talk <i class="fas fa-arrow-right"></i></a></center>
+          </div>
+        </div>
+      </div>
+      <div class="waves"></div>
+  </section>
+  <!-- END: BANNER -->
+
+
+
+
+  <br>
+
+  <section class="section section-blog" id="blog">
+    <div class="row img-zoom">
+      <div class="col-6" style="background-color:#0b0b0b;padding:0;">
+        <div class="text">
+          <h1 class="mb-2 text-white">Consulting</h1>
+          <p style="color:#fff;">Experience. Expertise. Excellence.</p>
+          <a href="consulting.html" id="button" class="btn btn-circle mt-5">Know More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6" style="padding:0;">
+        <img src="assets/images/1.jpg" alt="" width="100%">
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-blog" id="blog">
+    <div class="row img-zoom">
+      <div class="col-6" style="padding:0;">
+        <img src="assets/images/2.jpg" alt="" width="100%">
+      </div>
+
+      <div class="col-6" style="background-color:#020202;padding:0;">
+        <div class="text">
+          <h1 class="mb-2 text-white">Solutions</h1>
+          <p style="color:#fff;">Results not Reports</p>
+          <a href="solutions.html" id="button" class="btn btn-circle mt-5">Know More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-blog" id="blog">
+    <div class="row img-zoom">
+      <div class="col-6" style="background-color:#020202;padding:0;">
+        <div class="text">
+          <h1 class="mb-2 text-white">Services</h1>
+          <p style="color:#fff;">Outsourcing Simplified</p>
+          <a href="services.html" id="button" class="btn btn-circle mt-5">Know More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6" style="padding:0;">
+        <img src="assets/images/3.jpg" alt="" width="100%">
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-blog" id="blog">
+    <div class="row img-zoom">
+
+      <div class="col-6" style="padding:0;">
+        <img src="assets/images/5.jpg" alt="" width="100%">
+      </div>
+
+      <div class="col-6" style="background-color:#020202;padding:0;">
+        <div class="text">
+          <h1 class="mb-2 text-white">Product</h1>
+          <p style="color:#fff;">Efficiency Elevated</p>
+          <a href="products.html" id="button" class="btn btn-circle mt-5">Know More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- START: CONTACT -->
+  <section class="section section-dark section-contact" id="contact">
+    <div class="container">
+      <!-- section title -->
+      <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+        <h2>Foot Prints</h2>
+        <div class="border"></div>
+      </div>
+      <br>
+      <!-- /section title -->
+      <div class="row">
+        <div class="col-lg-8" style="margin:auto;">
+<!--
+					<div class="contact-map mb-4">
+						<div class="contact-map--container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124448.73070923817!2d77.50668495815594!3d12.906253179642166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c9325e7843%3A0x8c4141b7966c7c49!2sVolkswagen%20Bangalore%20(JP%20Nagar)!5e0!3m2!1sen!2sin!4v1594876551275!5m2!1sen!2sin" width="730" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+					</div>
+-->
+          <div class="contact-Otherdetails ">
+            <div class="contact-details mt-5">
+              <!--<h5 class="section-subHead mb-4"> Get in Touch</h5>-->
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="contact-details--panel p-4 b-box text-center">
+                    <div class="mb-4">
+                      <img src="assets/images/India.png" width="30"/> INDIA
+                    </div>
+                    <div class="mt-2">
+                      <p>#608, Ground Floor, Ring Road,<br>15th Cross Rd, JP Nagar 6th Phase,<br>Bengaluru, Karnataka - 560078</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="contact-details--panel p-4 b-box text-center">
+                    <div class="mb-4">
+                      <img src="assets/images/USA.png" width="30"/> USA
+                    </div>
+                    <div class="mt-2">
+                      <p>#91009 Wall St.<br>South Ozone Park,<br>NY - 114200</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form mt-5">
+              <form id="contactForm">
+                <h5 class="section-subHead mb-4"> Contact Form</h5>
+                <div id="formMessage" style="display: none;">
+                  <h3>Email Sending</h3>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group mb-3">
+                      <input name="name" id="name" type="text" class="form-control b-box" placeholder="Your Name *" required>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group mb-3">
+                      <input name="email" id="email" type="email" class="form-control b-box" placeholder="Your Email *" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mb-3">
+                      <input type="text" class="form-control b-box" name="subject" id="subject" placeholder="Your Subject.." required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mb-3">
+                      <textarea name="comments" id="comments" rows="4" class="form-control b-box" placeholder="Your message..."></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mt-4 mb-5">
+                    <center><input type="submit" id="submit" name="send" class="submitBnt btn btn-outline text-uppercase" value="Submit"></center>
+                  </div>
+                </div>
+              </form>
+
+              <div id="error_message" style="width:100%; height:100%; display:none; padding:30px;">
+                <h4>Error</h4>
+                Sorry there was an error sending your form.
+              </div>
+              <div id="success_message" style="width:100%; height:100%; display:none; padding:30px;">
+                <center><h2>Thank You! Your Message was Sent Successfully.</h2></center>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: CONTACT -->
+
+  <!--START: FOOTER-->
+  <footer class="footer section ">
+    <div class="container">
+
+      <div class="nav-middle">
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>|
+          <li><a href="security.html">Security</a></li>
+        </ul>
+      </div>
+
+      <p class="copyright text-center mb-0">&copy; RSTACK 2020 | All Right Reserved</p>
+    </div>
+  </footer>
+  <!--END: FOOTER-->
+
+
+  <!-- JAVASCRIPTS -->
+  <script src="assets/js/vendor.js"></script>
+  <script src="assets/js/splitting.min.js"></script>
+
+  <!-- Map -->
+  <script src="assets/js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD79MY72taVRlZVX2DU6L5PXOh3ezUUKMc&amp;callback=initMap" async="" defer=""></script>
+
+  <script src="assets/js/dots-wave.js"></script>
+  <script src="assets/js/tweenmax.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="assets/js/contact_me.js"></script>
+  <script src="assets/js/contact.js"></script>
+
+  <!-- Custom Js -->
+  <script src="assets/js/custom.js"></script>
+
+
+  <!-- Dropdown Menu -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      jQuery(document).ready(function() {
+        jQuery("#jquery-accordion-menu").jqueryAccordionMenu();
+        jQuery(".colors a").click(function() {
+          if ($(this).attr("class") != "default") {
+            $("#jquery-accordion-menu").removeClass();
+            $("#jquery-accordion-menu").addClass("jquery-accordion-menu").addClass($(this).attr("class"));
+          } else {
+            $("#jquery-accordion-menu").removeClass();
+            $("#jquery-accordion-menu").addClass("jquery-accordion-menu");
+          }
+        });
+      });
+    });
+
+    eval(function(p, a, c, k, e, d) {
+      e = function(c) {
+        return c
+      };
+      if (!''.replace(/^/, String)) {
+        while (c--) {
+          d[c] = k[c] || c
+        }
+        k = [function(e) {
+          return d[e]
+        }];
+        e = function() {
+          return '\\w+'
+        };
+        c = 1
+      };
+      while (c--) {
+        if (k[c]) {
+          p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])
+        }
+      }
+      return p
+    }('94(61(54,52,50,53,51,55){51=61(50){64(50<52?\'\':51(95(50/52)))+((50=50%52)>35?68.98(50+29):50.97(36))};73(!\'\'.70(/^/,68)){71(50--){55[51(50)]=53[50]||51(50)}53=[61(51){64 55[51]}];51=61(){64\'\\\\59+\'};50=1};71(50--){73(53[50]){54=54.70(109 96(\'\\\\56\'+51(50)+\'\\\\56\',\'57\'),53[50])}}64 54}(\'86(31(54,52,50,53,51,55){51=31(50){32(50<52?\\\'\\\':51(91(50/52)))+((50=50%52)>35?34.39(50+29):50.84(36))};38(!\\\'\\\'.37(/^/,34)){33(50--){55[51(50)]=53[50]||51(50)}53=[31(51){32 55[51]}];51=31(){32\\\'\\\\\\\\59+\\\'};50=1};33(50--){38(53[50]){54=54.37(125 83(\\\'\\\\\\\\56\\\'+51(50)+\\\'\\\\\\\\56\\\',\\\'57\\\'),53[50])}}32 54}(\\\'219(63(54,52,50,53,51,55){51=63(50){60(50<52?\\\\\\\'\\\\\\\':51(220(50/52)))+((50=50%52)>218?99.217(50+29):50.22(21))};74(!\\\\\\\'\\\\\\\'.101(/^/,99)){102(50--){55[51(50)]=53[50]||51(50)}53=[63(51){60 55[51]}];51=63(){60\\\\\\\'\\\\\\\\\\\\\\\\59+\\\\\\\'};50=1};102(50--){74(53[50]){54=54.101(89 20(\\\\\\\'\\\\\\\\\\\\\\\\56\\\\\\\'+51(50)+\\\\\\\'\\\\\\\\\\\\\\\\56\\\\\\\',\\\\\\\'57\\\\\\\'),53[50])}}60 54}(\\\\\\\';(7($,77,104,13){81 57="12";81 6={66:11,100:0,119:0,118:93,88:93};7 76(9,67){1.9=9;1.221=$.103({},6,67);1.10=6;1.14=57;1.87()};$.103(76.15,{87:7(){1.92();1.106();8(6.88){1.59()}},92:7(){$(1.9).5("225").58("19").113("112 111",7(51){51.18();51.16();8($(1).5(".3").54>0){8($(1).5(".3").80("17")=="223"){$(1).5(".3").116(6.100).213(6.66);$(1).5(".3").56("52").115("3-50-65");8(6.118){$(1).56().5(".3").120(6.66);$(1).56().5(".3").56("52").72("3-50-65")}117 202}203{$(1).5(".3").116(6.119).120(6.66)}8($(1).5(".3").56("52").199("3-50-65")){$(1).5(".3").56("52").72("3-50-65")}}77.205.108=$(1).5("52").210("108")})},106:7(){8($(1.9).58(".3").54>0){$(1.9).58(".3").56("52").206("<53 124=\\\\\\\\\\\\\\\'3-50\\\\\\\\\\\\\\\'>+</53>")}},59:7(){81 4,55,79,75;$(1.9).58("52").113("112 111",7(51){$(".4").248();8($(1).5(".4").54===0){$(1).250("<53 124=\\\\\\\\\\\\\\\'4\\\\\\\\\\\\\\\'></53>")}4=$(1).58(".4");4.72("121-4");8(!4.78()&&!4.69()){55=262.260($(1).259(),$(1).257());4.80({78:55,69:55})}79=51.247-$(1).110().107-4.69()/2;75=51.237-$(1).110().105-4.78()/2;4.80({105:75+\\\\\\\\\\\\\\\'114\\\\\\\\\\\\\\\',107:79+\\\\\\\\\\\\\\\'114\\\\\\\\\\\\\\\'}).115("121-4")})}});$.242[57]=7(67){1.240(7(){8(!$.122(1,"123"+57)){$.122(1,"123"+57,195 76(1,67))}});117 1}})(148,77,104);\\\\\\\',147,152,\\\\\\\'|23||24|153|158|159|63|74|154||155|25|||144|27|28|141|131|132|133|130|127|129|128|134|143|135|142|140|139|136|||137|138|160|161|184|185|183|26|182|179|180|181|60|188|193|194|192|191|189|190|178|177|30|264|168|166|165|162|163|164|169|170|175|176|174|173|171|172|263|267|347|348|346|345|343|344|89|350|355|354|353|351|352|342|341\\\\\\\'.332(\\\\\\\'|\\\\\\\'),0,{}))\\\',82,333,\\\'||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||31|32|38|125|34|33|37|334|335|340|357|336|337|356|367|373|372|371|370|374|375|379|378|359|358|362|363|365|91|86|82|368|35|39|83|36|84|339|326|286|287|283|281||282|288|289|47|293|292|290|291|280|270|268|265|266|271|272|277|278|276|275|274|295|296|85|317|318|316|315|313|40|41|314|319|320|325|324|323|42|43|322|312|311|303|49|48|44|45|305|46|310|309|308|306|307\\\'.85(\\\'|\\\'),0,{}))\',62,284,\'|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||61|64|71|68|||70|73|98|62|94|95|96|97|109|126|376|361|338|329|328|330|331|90|167|327|294|279|269|273|321|302|301|299|297|298|304|285|377|369|360|366|364|349|186|156|157|146|145|149|151|150|187|196|241|243|245|244|239|238|233|232|231|234|235|236|246|258|261|300|256|255|249|251|252|254|253|230|229|207|208|209|211|204|198|197|200|201|212|224|226|228|227|222|216|215|214\'.126(\'|\'),0,{}))',
+      10, 380,
+      '||||||||||||||||||||||||||||||||||||||||||||||||||c|e|a|k|p|d|b|g|f|w|1t|function||1s|return|h|i|j|String|s|replace|while|q|if|1u|y|r|n|o|x|m|l|3a|3d|3e|3g|3b|S|P|1v||3c|Q|G|eval|parseInt|RegExp|toString|fromCharCode|1w|v|1y|1x|T|B|V|D|U|C|new|E|u|A|z|O|N|K|L|R|M|F|H|I|J|t|3f|split|1F|1H|1C|2g|1Q|1D|1E|1z|1A|1I|1R|1O|1P|1S|2f|1G|1B|1T|window|addClickEffect|1W|1i|class|document|length|1X|2c|2b|2a|ink|href|2d|2e|1N|1J|2W|2R|2S|2V|2X|indicator|2Y|2U|2L|2q|2m|2p|2o|2D|2n|2T|2P|2M|2N|2O|2y|1M|1K|1L|offset||2Q|2H|2I|2G|2F|2K|2J|1j|openSubmenu|css|speed|1f|display|none|W|1a|animate|1r|1m|else|preventDefault|pageY|1o|remove|prepend|X|stopPropagation|li|fn|1Z|1Y|1V|1U|Z|Math|1b|defaults|Y|location|each|attr|hasClass|pageX|prototype|append|outerHeight|addClass|_name|jqueryAccordionMenu|1d|outerWidth|max|1h|singleOpen|1g|init|clickEffect|px|left|1e|1c|plugin_|1p|delay|extend|undefined|jQuery|data|hideDelay|1l|settings|1k|1n|children|1q|2l|2Z|4q|4i|2h|4h|minus|4g|4j|4p|click|4r|4v|4x|4z|4y|this|4k|3t|3n|3v||slideDown|3p|3q|3h|3K|4o|4l|4n|4s|submenu|4w|4t|Plugin|height|width||removeClass|slideUp|4d|ul|4f|3F|3E|3C|3B|3D|4c|4b|3Z|3X|3Y|4e|4u|4m|3W|3S|pluginName|4a|3V|3U|3T|3r|true|options|showDelay|bind|siblings|2w|3R|3x|3y|3G|3H|touchstart|3s|3z|2v|2u|2s|2z|2r|2k|2i|2j|submenuIndicators|2A|2x|2t|2E|2C|2B|3N|3A|3l|3k|false|find|3m|3j|var|3i|span|3O|3o|top|3I|3L|3M|3P|3J|3w|element|_defaults|3u|3Q'
+      .split('|'), 0, {}))
+  </script>
+
+
+  <!-- Banner Text SLiding -->
+  <script>
+    var words = document.getElementsByClassName('word');
+    var wordArray = [];
+    var currentWord = 0;
+    words[currentWord].style.opacity = 1;
+    for (var i = 0; i < words.length; i++) {
+      splitLetters(words[i]);
+    }
+
+    function changeWord() {
+      var cw = wordArray[currentWord];
+      var nw = currentWord == words.length - 1 ? wordArray[0] : wordArray[currentWord + 1];
+      for (var i = 0; i < cw.length; i++) {
+        animateLetterOut(cw, i);
+      }
+      for (var i = 0; i < nw.length; i++) {
+        nw[i].className = 'letter behind';
+        nw[0].parentElement.style.opacity = 1;
+        animateLetterIn(nw, i);
+      }
+      currentWord = (currentWord == wordArray.length - 1) ? 0 : currentWord + 1;
+    }
+
+    function animateLetterOut(cw, i) {
+      setTimeout(function() {
+        cw[i].className = 'letter out';
+      }, i * 80);
+    }
+
+    function animateLetterIn(nw, i) {
+      setTimeout(function() {
+        nw[i].className = 'letter in';
+      }, 340 + (i * 80));
+    }
+
+    function splitLetters(word) {
+      var content = word.innerHTML;
+      word.innerHTML = '';
+      var letters = [];
+      for (var i = 0; i < content.length; i++) {
+        var letter = document.createElement('span');
+        letter.className = 'letter';
+        letter.innerHTML = content.charAt(i);
+        word.appendChild(letter);
+        letters.push(letter);
+      }
+      wordArray.push(letters);
+    }
+    changeWord();
+    setInterval(changeWord, 4000);
+  </script>
+
+  <!-- Logo Image Change -->
+
+
+</body>
+
+</html>
